@@ -2,59 +2,59 @@
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
-  }
-  
-  body {
+}
+
+body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-  }
-  
-  header {
+    background-color: #d2b48c; /* Light brown background color */
+}
+
+header {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style: none;
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     display: inline;
     margin-right: 20px;
-  }
-  
-  nav a {
+}
+
+nav a {
     text-decoration: none;
     color: #fff;
-  }
-  
-  section {
+}
+
+section {
     padding: 40px;
-  }
-  
-  .project {
+}
+
+.project {
     display: flex;
     margin-bottom: 20px;
-  }
-  
-  .project img {
+}
+
+.project img {
     max-width: 300px;
-  }
-  
-  .project-info {
+}
+
+.project-info {
     margin-left: 20px;
-  }
-  
-  .about-me {
+}
+
+.about-me {
     max-width: 600px;
-  }
-  
-  footer {
+}
+
+footer {
     text-align: center;
     padding: 10px 0;
     background-color: #38a5a0;
     color: #fff;
-  }
-  
+}
