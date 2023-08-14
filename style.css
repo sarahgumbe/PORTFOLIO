@@ -1,19 +1,20 @@
-/* Reset some default styles */
+
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
-    color: black; /* Set text color to black */
+    color: black; 
 }
 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: skyblue; /* Set background color to sky blue */
+    background-color: skyblue; 
+    padding: 20px; 
 }
 
 header {
-    background-color: skyblue; /* Set background color to sky blue */
-    color: black; /* Set text color to black */
+    background-color: skyblue;
+    color: black; 
     text-align: center;
 }
 
@@ -28,12 +29,12 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: black; /* Set text color to black */
-    font-weight: bold; /* Make hyperlinks bold */
+    color: black; 
+    font-weight: bold;  
 }
 
 section {
-    padding: 0; /* Remove padding */
+    padding: 0;
 }
 
 .project {
@@ -56,6 +57,30 @@ section {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: skyblue; /* Set background color to sky blue */
-    color: black; /* Set text color to black */
+    background-color: skyblue; 
+    color: black; 
+}
+
+
+.index-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.index-content img {
+    align-self: flex-start;
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+
+
+.project-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.project-list li {
+    margin-bottom: 10px;
 }
