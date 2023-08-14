@@ -35,8 +35,11 @@ nav a {
     font-weight: bold;  
 }
 
-section {
-    padding: 0;
+.section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 0 10px; /* Adjust spacing between sections */
 }
 
 .project {
@@ -65,8 +68,8 @@ footer {
 
 .container {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: space-between; 
+    
 }
 
 .index-content img {
