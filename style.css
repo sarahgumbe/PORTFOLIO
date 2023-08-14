@@ -14,10 +14,12 @@ body {
 
 header {
     background-color: skyblue;
-    color: black; 
-    text-align: center;
+    color: black;
+    padding: 10px 20px; 
 }
-
+img {
+    display: block; 
+}
 nav ul {
     list-style: none;
 }
@@ -55,15 +57,15 @@ section {
 }
 
 footer {
-    text-align: center;
-    padding: 10px 0;
+    text-align: left;
+    padding: 10px 20px;
     background-color: skyblue; 
     color: black; 
 }
 
-
-.index-content {
+.container {
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
 }
 
@@ -72,8 +74,6 @@ footer {
     max-width: 200px;
     margin-right: 20px;
 }
-
-
 
 .project-list {
     list-style: none;
