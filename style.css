@@ -2,18 +2,18 @@
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
+    color: black; /* Set text color to black */
 }
 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #d2b48c; /* Light brown background color */
+    background-color: skyblue; /* Set background color to sky blue */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+    background-color: skyblue; /* Set background color to sky blue */
+    color: black; /* Set text color to black */
     text-align: center;
 }
 
@@ -28,11 +28,12 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: black; /* Set text color to black */
+    font-weight: bold; /* Make hyperlinks bold */
 }
 
 section {
-    padding: 40px;
+    padding: 0; /* Remove padding */
 }
 
 .project {
@@ -55,6 +56,6 @@ section {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #38a5a0;
-    color: #fff;
+    background-color: skyblue; /* Set background color to sky blue */
+    color: black; /* Set text color to black */
 }
