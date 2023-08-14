@@ -81,9 +81,11 @@ footer {
 .project-list {
     list-style: none;
     padding: 0;
-    margin: 0;
+    display: flex;
+    flex-wrap: wrap; /* Wrap items to next line if space is insufficient */
 }
 
 .project-list li {
-    margin-bottom: 10px;
+    margin: 5px; /* Adjust spacing between projects */
+    display: inline-block;
 }
