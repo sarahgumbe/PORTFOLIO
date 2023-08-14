@@ -35,12 +35,7 @@ nav a {
     font-weight: bold;  
 }
 
-.section {
-    flex: 1;
-    padding: 20px;
-    border: 1px solid #ccc;
-    margin: 0 10px; /* Adjust spacing between sections */
-}
+
 
 .project {
     display: flex;
